@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="layout.css">
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.css">
+
+<!--Loading D3.js -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<!-- Loading billboard.js scripts from the cdn --> 
+<script src="https://cdn.jsdelivr.net/npm/billboard.js/dist/billboard.min.js"></script>
+
+<title>Cracow Stock Exchange</title>
+</head>
+<body>
+
+
+    <div>
+		<img src="logo.png" alt="logo" width="175" height="175">
+	</div>
+
+	<div id="name">
+		CSE
+	</div>
+
+	<div id="nameDescription">
+		Cracow Stock Exchange
+	</div>
+
+	<div>
+		<canvas id="line" width="1000" height="15" ></canvas>
+	</div>
+
+	<h1>
+		Bar graph
+	</h1>
+
+<div id="chart2"></div>
+
+<h1>
+    Line graph
+</h1>
+
+<div id="chart1"></div>
+
+
+
+
+
+
+
+ 
+<script src="scripts/instruction.js" ></script>
+<script>
+    var c = document.getElementById("line");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0,0);
+    ctx.lineTo(1000,0);
+    ctx.strokeStyle = "#91c8e0";
+    ctx.lineWidth = 4;
+    ctx.stroke();
+</script>
+</body>
+</html>

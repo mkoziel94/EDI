@@ -1,0 +1,32 @@
+body 
+{
+  background-color: rgb(250,242,227);
+  text-align: center;
+}
+
+h1
+{
+  font-size: 26px;
+  font-family: Garamond, serif;
+  color: #d25c24;
+  position:relative;
+  left:-400px;
+  text-align:center;
+}
+
+
+
+#name
+{
+  font-family: Garamond, serif;
+  font-size: 44px;
+  margin-bottom: 8px;
+}
+
+#nameDescription
+{
+  font-family: Garamond, serif;
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
